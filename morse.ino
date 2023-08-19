@@ -4,7 +4,7 @@ const int buttonPin = 2;       // Push button pin
 const long dotDuration = 250;  // Duration of a dot in milliseconds
 const long dashDuration = dotDuration * 3; // Duration of a dash
 
-const char morseCode[][5] = {
+const char morseCode[][6] = {
   ".-",    // A
   "-..",   // D
   ".."     // I
